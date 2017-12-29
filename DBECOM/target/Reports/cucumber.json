@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "CA site\u0027s My Contact Page should have title",
+        "description": "",
+        "id": "international-site:-contact-pages-should-have-title..;ca-site\u0027s-my-contact-page-should-have-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7285414500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Open any browser",
+            "match": {
+              "location": "Steps.user_Open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4551318200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User goes to canadian David\u0027s Bridal home page",
+            "match": {
+              "location": "Steps.user_goes_to_canadian_David_s_Bridal_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2827880200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User scroll down to bottom of the page and click on the *Contact Us* link on the Footer section",
+            "match": {
+              "location": "Steps.user_scroll_down_to_bottom_of_the_page_and_click_on_the_Contact_Us_link_on_the_Footer_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100561200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Contact Us]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinition.Steps.user_verify_the_page_title_is_Contact_Us(Steps.java:49)\r\n\tat ✽.Then User verify the page title is Contact Us(test1.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User verify the page title is Contact Us",
+            "match": {
+              "location": "Steps.user_verify_the_page_title_is_Contact_Us()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user closes the browser",
+            "match": {
+              "location": "Steps.user_closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "UK site\u0027s My Contact Page should have title",
+        "description": "",
+        "id": "international-site:-contact-pages-should-have-title..;uk-site\u0027s-my-contact-page-should-have-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4281362000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Open any browser",
+            "match": {
+              "location": "Steps.user_Open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4313527300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User goes to UK David\u0027s Bridal home page",
+            "match": {
+              "location": "Steps.user_goes_to_UK_David_s_Bridal_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3179230500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User scroll down to bottom of the page and click on the *Contact Us* link on the Footer section",
+            "match": {
+              "location": "Steps.user_scroll_down_to_bottom_of_the_page_and_click_on_the_Contact_Us_link_on_the_Footer_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202256400,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Contact Us]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinition.Steps.user_verify_the_page_title_is_Contact_Us(Steps.java:49)\r\n\tat ✽.Then User verify the page title is Contact Us(test1.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "User verify the page title is Contact Us",
+            "match": {
+              "location": "Steps.user_verify_the_page_title_is_Contact_Us()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user closes the browser",
+            "match": {
+              "location": "Steps.user_closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "International Site: Contact Pages should have title..",
+    "description": "As an international site my Contact Pages should have page titles",
+    "id": "international-site:-contact-pages-should-have-title..",
+    "keyword": "Feature",
+    "uri": "test1.feature"
+  }
+]
